@@ -3,7 +3,6 @@ downloads: ~/.ansible-downloads/
 
 homebrew_installed_packages:
   - caskroom/cask/brew-cask
-  - elasticsearch
   - go
   - gradle
   - jq
