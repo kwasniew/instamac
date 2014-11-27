@@ -9,6 +9,7 @@ homebrew_installed_packages:
   # - elasticsearch
   - go
   - gradle
+  - heroku-toolbelt
   - jq
   - leiningen
   - maven
@@ -20,6 +21,7 @@ homebrew_installed_packages:
   - postgresql
   - rabbitmq
   - redis
+  - tomcat
   - tree
   - wget
   - zeromq
