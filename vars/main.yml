@@ -6,7 +6,7 @@ homebrew_installed_packages:
   - autojump
   - caskroom/cask/brew-cask
   - datomic
-  # - elasticsearch
+  - elasticsearch
   - go
   - gradle
   - heroku-toolbelt
