@@ -1,6 +1,6 @@
 ---
 - hosts: self
-  user: jgeerling
+  user: mateuszkwasniewski
   connection: local
 
   vars_files:
