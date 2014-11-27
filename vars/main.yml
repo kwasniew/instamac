@@ -2,19 +2,23 @@
 downloads: ~/.ansible-downloads/
 
 homebrew_installed_packages:
+  - autojump
   - caskroom/cask/brew-cask
+  # - elasticsearch
   - go
   - gradle
   - jq
   - leiningen
   - maven
   - mongodb
+  - mysql
   - nginx
   - node
   - npm
   - postgresql
   - rabbitmq
   - redis
+  - tree
   - wget
   - zeromq
   - zsh
@@ -35,7 +39,7 @@ homebrew_cask_apps:
   - divvy
   - dropbox
   - firefox
-  - f-lux
+  - flux
   - google-chrome
   - intellij-idea
   - iterm2
@@ -46,6 +50,7 @@ homebrew_cask_apps:
   - terraform
   - vagrant
   - virtualbox
+  - vlc
 
 npm_packages:
    - bower
