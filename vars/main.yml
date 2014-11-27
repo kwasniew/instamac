@@ -20,4 +20,4 @@ homebrew_cask_apps:
 npm_packages:
    - bower
    - gulp
-   - grunt
+   - grunt-cli
