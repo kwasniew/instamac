@@ -18,7 +18,7 @@
       changed_when: false
 
     - name: Install cask
-      command: brew install caskroom/cask/brew-cask
+      command: brew install brew-cask
       when: "'brew-cask' not in homebrew_list.stdout"
 
     - name: Get list of apps installed with cask.
