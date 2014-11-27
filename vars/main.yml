@@ -3,9 +3,18 @@ downloads: ~/.ansible-downloads/
 
 homebrew_installed_packages:
   - caskroom/cask/brew-cask
+  - clojure
+  - elasticsearch
+  - go
+  - gradle
+  - jq
+  - leiningen
+  - maven
   - mongodb
+  - nginx
   - node
   - npm
+  - postgresql
   - rabbitmq
   - redis
   - wget
@@ -20,15 +29,23 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - appcleaner
+  - boot2docker
   - caffeine
   - charles
   - divvy
+  - dropbox
   - firefox
+  - f-lux
   - google-chrome
+  - intellij-idea
   - iterm2
+  - java
+  - packer
   - skype
   - spotify
   - vagrant
+  - virtualbox
 
 npm_packages:
    - bower
