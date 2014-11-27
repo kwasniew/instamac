@@ -53,6 +53,6 @@ fi
 
 cd $ANSIBLE_CONFIGURATION_DIRECTORY
 git pull
-ansible-galaxy install --force geerlingguy.homebrew
+# ansible-galaxy install --force geerlingguy.homebrew
 ansible-playbook main.yml
 
