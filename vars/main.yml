@@ -9,11 +9,11 @@ homebrew_installed_packages:
   - elasticsearch
   - go
   - gradle
-  - hg
   - heroku-toolbelt
   - jq
   - leiningen
   - maven
+  - mercurial
   - mongodb
   - mysql
   - nginx
