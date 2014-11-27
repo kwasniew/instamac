@@ -2,8 +2,6 @@
 
 set -e
 
-SRC_DIRECTORY="$HOME/src"
-ANSIBLE_DIRECTORY="$SRC_DIRECTORY/ansible"
 ANSIBLE_CONFIGURATION_DIRECTORY="$HOME/.ansible.d"
 
 # Download and install Command Line Tools with a checking heuristic
@@ -22,12 +20,6 @@ fi
 
 # Modify the PATH
 export PATH=/usr/local/bin:$PATH
-
-# Download and install zsh
-if [[ ! -x /usr/local/bin/zsh ]]; then
-    echo "Info   | Install   | zsh"
-    brew install zsh
-fi
 
 # Download and install git
 if [[ ! -x /usr/local/bin/git ]]; then
@@ -53,6 +45,5 @@ fi
 
 cd $ANSIBLE_CONFIGURATION_DIRECTORY
 git pull
-# ansible-galaxy install --force geerlingguy.homebrew
-ansible-playbook main.yml
+ansible-playbook main.yml --ask-sudo-pass
 
