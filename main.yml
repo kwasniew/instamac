@@ -6,9 +6,6 @@
   vars_files:
     - vars/main.yml
 
-  roles:
-    - geerlingguy.homebrew
-
   tasks:
     - name: Ensure Ansible downloads directory exists.
       file:
@@ -25,6 +22,16 @@
         brew cask install {{ item }} --appdir={{ homebrew_cask_appdir }}
       with_items: homebrew_cask_apps
       when: "'{{ item }}' not in homebrew_cask_list.stdout"
+
+    - name: Get list of installed homebrew packages.
+      command: brew list
+      register: homebrew_list
+      changed_when: false
+
+    - name: Install apps via `brew`.
+      command: brew install {{ item }}
+      with_items: homebrew_installed_packages
+      when: "' {{ item }}' not in homebrew_list.stdout"
 
     - name: Install npm ecosystem
       npm: name={{item}} global=yes state=present

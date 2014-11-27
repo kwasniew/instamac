@@ -9,6 +9,7 @@ homebrew_installed_packages:
   - elasticsearch
   - go
   - gradle
+  - hg
   - heroku-toolbelt
   - jq
   - leiningen
@@ -44,6 +45,8 @@ homebrew_cask_apps:
   - dropbox
   - firefox
   - flux
+  - go-server
+  - go-agent
   - google-chrome
   - intellij-idea
   - iterm2
