@@ -18,7 +18,6 @@ homebrew_installed_packages:
   - mysql
   - nginx
   - node
-  - npm
   - postgresql
   - rabbitmq
   - redis
