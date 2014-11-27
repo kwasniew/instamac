@@ -27,6 +27,5 @@
       when: "'{{ item }}' not in homebrew_cask_list.stdout"
 
     - name: Install npm ecosystem
-      sudo: yes
       npm: name={{item}} global=yes state=latest
       with_items: npm_packages
