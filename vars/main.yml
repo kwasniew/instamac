@@ -2,8 +2,10 @@
 downloads: ~/.ansible-downloads/
 
 homebrew_installed_packages:
+  - ant
   - autojump
   - caskroom/cask/brew-cask
+  - datomic
   # - elasticsearch
   - go
   - gradle
@@ -47,6 +49,7 @@ homebrew_cask_apps:
   - packer
   - skype
   - spotify
+  - sublime-text
   - terraform
   - vagrant
   - virtualbox
