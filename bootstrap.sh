@@ -53,5 +53,5 @@ fi
 
 cd $ANSIBLE_CONFIGURATION_DIRECTORY
 git pull
-# ansible-playbook main.yml --ask-sudo-pass
+ansible-playbook main.yml --ask-sudo-pass
 
