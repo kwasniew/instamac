@@ -3,6 +3,8 @@ downloads: ~/.ansible-downloads/
 
 homebrew_installed_packages:
   - wget
+  - node
+  - npm
   - caskroom/cask/brew-cask
 
 homebrew_taps:
