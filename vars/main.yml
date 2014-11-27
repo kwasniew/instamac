@@ -17,6 +17,7 @@ homebrew_installed_packages:
   - node
   - postgresql
   - rabbitmq
+  - redis
   - tomcat
   - tree
   - wget
