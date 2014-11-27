@@ -25,3 +25,7 @@
         brew cask install {{ item }} --appdir={{ homebrew_cask_appdir }}
       with_items: homebrew_cask_apps
       when: "'{{ item }}' not in homebrew_cask_list.stdout"
+
+    - name: Install npm ecosystem
+      npm: name={{item}}
+      with_items: npm_packages
