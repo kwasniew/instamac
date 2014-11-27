@@ -53,5 +53,6 @@ fi
 
 cd $ANSIBLE_CONFIGURATION_DIRECTORY
 git pull
-ansible-playbook main.yml -i hosts --ask-sudo-pass
+ansible-galaxy install --force geerlingguy.homebrew
+ansible-playbook main.yml
 
