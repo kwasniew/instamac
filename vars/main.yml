@@ -3,8 +3,10 @@ downloads: ~/.ansible-downloads/
 
 homebrew_installed_packages:
   - caskroom/cask/brew-cask
+  - mongodb
   - node
   - npm
+  - rabbitmq
   - redis
   - wget
   - zeromq
