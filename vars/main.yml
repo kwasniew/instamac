@@ -8,6 +8,7 @@ homebrew_installed_packages:
   - gradle
   - heroku-toolbelt
   - jq
+  - redis
   - leiningen
   - maven
   - mercurial
