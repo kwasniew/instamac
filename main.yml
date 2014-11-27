@@ -1,5 +1,5 @@
 ---
-- hosts: self
+- hosts: local
   user: mateuszkwasniewski
   connection: local
 
