@@ -48,7 +48,7 @@ fi
 
 # Clone down the Ansible repo
 if [[ ! -d $ANSIBLE_CONFIGURATION_DIRECTORY ]]; then
-    git clone git@github.com:kwasniew/instamac.git $ANSIBLE_CONFIGURATION_DIRECTORY
+    git clone https://github.com/kwasniew/instamac.git $ANSIBLE_CONFIGURATION_DIRECTORY
     cd $ANSIBLE_CONFIGURATION_DIRECTORY
     # ansible-playbook main.yml --ask-sudo-pass
 fi
