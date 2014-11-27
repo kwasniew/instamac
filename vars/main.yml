@@ -1,0 +1,55 @@
+---
+downloads: ~/.ansible-downloads/
+
+homebrew_installed_packages:
+  - autoconf
+  - gettext
+  - libevent
+  - packer
+  - python
+  - sqlite
+  - mysql
+  - php56
+  - php56-xdebug
+  - ssh-copy-id
+  - cowsay
+  - ios-sim
+  - readline
+  - subversion
+  - kdiff3
+  - openssl
+  - pv
+  - drush
+  - wget
+  - caskroom/cask/brew-cask
+
+homebrew_taps:
+  - caskroom/cask
+  - homebrew/binary
+  - homebrew/dupes
+  - homebrew/php
+  - homebrew/versions
+  - homebrew/homebrew-php
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - adium
+  - bettertouchtool
+  - google-chrome
+  - dropbox
+  - firefox
+  - handbrake
+  - karabiner
+  - menumeters
+  - nvalt
+  - sequel-pro
+  - skype
+  - skitch
+  - seil
+  - sublime-text # Note - Sublime Text 2 only, at this time...
+  - tower
+  - transmit
+  - vlc
+  - vagrant
+  - vagrant-manager
+  - virtualbox

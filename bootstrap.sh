@@ -16,10 +16,9 @@ fi
 if [[ ! -x /usr/local/bin/brew ]]; then
     echo "Info   | Install   | homebrew"
     ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+    echo "Info   | Update   | brew"
+	brew update
 fi
-
-echo "Info   | Update   | brew"
-brew update
 
 # Modify the PATH
 export PATH=/usr/local/bin:$PATH
