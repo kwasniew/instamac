@@ -1,6 +1,4 @@
 ---
-downloads: ~/.ansible-downloads/
-
 homebrew_installed_packages:
   - ant
   - autojump
