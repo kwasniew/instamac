@@ -5,6 +5,7 @@ homebrew_installed_packages:
   - datomic
   - elasticsearch
   - go
+  - groovy
   - gradle
   - heroku-toolbelt
   - jq
