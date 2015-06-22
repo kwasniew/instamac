@@ -1,6 +1,6 @@
 ---
 - hosts: local
-  user: mateuszkwasniewski
+  user: kwasniew
   connection: local
 
   vars_files:
@@ -13,7 +13,7 @@
       changed_when: false
 
     - name: Install cask
-      command: brew install brew-cask
+      command: brew install caskroom/cask/brew-cask
       when: "'brew-cask' not in homebrew_list.stdout"
 
     - name: Get list of apps installed with cask.
