@@ -50,12 +50,14 @@ homebrew_cask_apps:
   - java
   - packer
   - skype
+  - slack
   - spotify
   - sublime-text
   - terraform
   - vagrant
   - virtualbox
   - vlc
+  - xquartz
   - wireshark
 
 npm_packages:
